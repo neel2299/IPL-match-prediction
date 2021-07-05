@@ -1,0 +1,12 @@
+t=int(input())
+n,r=map(int, input().split())
+var=list(map(int, input().split()))
+    
+
+
+def to_binary_list(num):
+    arr=[]
+    while num>1:
+        arr.append(num%2)
+        num=num/2
+    return arr

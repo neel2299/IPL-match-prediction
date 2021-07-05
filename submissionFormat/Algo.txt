@@ -1,0 +1,2 @@
+This is just a linear regressor model with some try except statements to account for any errors that might occur.
+The model forms a multidimensional linear equation and its weights are adjusted using a greedy approach to arrive at the final weight selection.
